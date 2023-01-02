@@ -1,0 +1,64 @@
+.about {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about::before {
+    content: '';
+    background-image: url("../imgs/19.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.2;
+    background-attachment: fixed;
+
+}
+
+
+.about_us {
+    text-align: center; 
+}   
+
+.about_us__title {
+    margin-left: 70px;
+    color: rgb(10, 0, 0);
+    padding: 50px;
+    font-size: 80px;
+    font-family: 'Cormorant Infant', serif;
+    text-shadow: 1px .1px 1px rgb(15, 15, 15);
+    text-align: center;
+    position: relative;
+    /* text-shadow: 3px 5px 10px orange; */
+
+    
+}
+
+
+
+.about_us_p {
+    color: rgb(10, 1, 1);
+    font-size: 26px;
+    position: relative;
+    font-family: 'Cormorant Infant', serif;
+    padding: 0 40px;
+    margin-bottom: 25px;
+    border-color:orangered ;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    width: 900px;
+    position: center;
+    margin-left: 140px;
+    
+}
+
+
+
+
