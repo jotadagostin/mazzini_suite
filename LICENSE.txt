@@ -1,7 +1,5 @@
 The MIT License (MIT)
 
-Copyright (c) 2022 João Paulo Dagostin (https://codepen.io/jotadagostin/pen/YzjXGbQ)
-Fork of an original work Website Header with Bootstrap Carousel (https://codepen.io/jotadagostin/pen/YzjXGbQ)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
