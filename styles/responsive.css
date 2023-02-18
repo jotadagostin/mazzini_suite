@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+  .about_us__title {
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6px;
+  }
+
+  .about_us_p {
+    border-color: rgb(214, 104, 60);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    margin: auto;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .subtitle {
+    font-size: 50px;
+  }
+
+  .explore .btn-lg {
+    display: none;
+  }
+
+  .about_us__title {
+    width: auto;
+    
+  }
+
+  .about_us_p {
+    border-color: rgb(214, 104, 60);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    width: 300px;
+    margin: auto;
+  }
+}
