@@ -43,6 +43,11 @@
     height: 80%;
   }
 
+  .footer_list {
+    display: flex;
+    flex-direction: column;
+  }
+
   .footer_list__item:hover {
     color: rgb(19, 16, 15);
     text-decoration: none;
