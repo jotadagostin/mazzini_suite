@@ -56,4 +56,31 @@
     border: none;
     
 }
+
+.love {
+  min-height: 85vh;
+  display: flex;
+  Justify-content: center;
+  align-items: center;
+  position: relative;
+  }
+
+
+.love::before {
+  content: '';
+  background-image: url("../imgs/35.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
+   }
+
+.love_us {
+  text-align: center; 
+  } 
 }
