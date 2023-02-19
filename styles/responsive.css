@@ -40,6 +40,15 @@
   }
 
   .contact_info {
-    height: 100%;
+    height: 80%;
   }
+
+  .footer_list__item:hover {
+    color: rgb(19, 16, 15);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bolder;
+    border: none;
+    
+}
 }
