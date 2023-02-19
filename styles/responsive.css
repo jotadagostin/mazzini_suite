@@ -38,4 +38,8 @@
     width: 300px;
     margin: auto;
   }
+
+  .contact_info {
+    height: 100%;
+  }
 }
