@@ -26,10 +26,11 @@
     display: none;
   }
 
-  .about_us__title {
-    width: auto;
-    
-  }
+ .about_us__title {
+  width: auto;
+  margin: 0;
+ }
+
 
   .about_us_p {
     border-color: rgb(214, 104, 60);
