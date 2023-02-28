@@ -101,3 +101,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
 		margin: 0;
 	}
 }
+
+
+.img1 {
+	height: 70vh;
+}
