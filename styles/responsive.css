@@ -63,6 +63,20 @@
   display: none;
 }
 
+.review {
+  width: 80%;
+  height: 115vh;
+  
+}
 
+.heading {
+  padding: 51px;
+
+}
+
+.cards {
+  
+ margin-left: 50px;
+}
 
 }
