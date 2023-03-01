@@ -60,6 +60,13 @@
     padding: 7px;
 }
 
+.material-symbols-outlined, .language {
+    color: rgb(230, 113, 95);
+    font-size: 30px;
+    margin: 1px;
+    padding-top: px;
+}
+
 .contact_title__d {
    color: rgb(205, 85, 42);
    font-size: 25px;
