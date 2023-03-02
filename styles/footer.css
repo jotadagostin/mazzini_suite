@@ -3,7 +3,7 @@
     flex-direction: column;
     font-size: 30px;
     align-items: center;    
-    background-color: rgba(218, 214, 214, 0.342);
+    background-color: rgba(199, 195, 195, 0.342);
     padding: 20px;
     height: 10%;
     
@@ -19,6 +19,7 @@
     text-decoration: none;
     padding: 22px;
     font-family: 'Cormorant Infant', serif;
+    color: rgb(166, 84, 46);
     
 }
 
@@ -33,9 +34,15 @@
 }
 
 .footer_home {
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px;
     
+}
+
+.footer_home a:hover {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    border-top: 1px solid orangered;
 }
 
 .footer_home a {
