@@ -17,21 +17,33 @@
 }
 
 @media screen and (max-width: 417px) {
-  .subtitle {
-    font-size: 50px;
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 19px;
+    text-shadow: 0.5px 0.5px 1px white;
+    border-bottom: none;
+  }
+
+  .title {
     
+    margin-top: 48px;
+  }
+
+  .subtitle {
+    font-size: 30px;
   }
 
   .explore .btn-lg {
     display: none;
   }
 
- .about_us__title {
-  width: auto;
-  margin: 0;
-  padding: 1px;
- }
-
+  .about_us__title {
+    width: auto;
+    margin: 0;
+    padding: 1px;
+  }
 
   .about_us_p {
     border-color: rgb(214, 104, 60);
@@ -56,27 +68,23 @@
     font-size: 32px;
     font-weight: bolder;
     border: none;
-    
-}
+  }
 
-.love {
-  display: none;
-}
+  .love {
+    display: none;
+  }
 
-.review {
-  width: 80%;
-  height: 115vh;
-  
-}
+  .review {
+    display: none;
+    /* width: 80%;
+    height: 115vh; */
+  }
 
-.heading {
-  padding: 51px;
+  .heading {
+    padding: 51px;
+  }
 
-}
-
-.cards {
-  
- margin-left: 50px;
-}
-
+  .cards {
+    margin-left: 50px;
+  }
 }
