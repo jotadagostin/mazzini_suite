@@ -22,6 +22,7 @@
   }
   
   .navbar-default .navbar-brand {
+    
     font-family: Verdana;
     color: #ffffff;
     font-size: 30px;
@@ -197,3 +198,6 @@
     color: #ffffff;
     outline: none;
   }
+
+
+  
