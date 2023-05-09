@@ -44,6 +44,10 @@
     border-top: 1px solid orangered;
 }
 
+.footer_home a::after {
+    list-style: none;
+}
+
 .footer_home a {
     color: black;
     text-decoration: none;
