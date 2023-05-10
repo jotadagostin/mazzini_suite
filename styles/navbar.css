@@ -200,16 +200,18 @@
   }
 
 .flag-english {
-  background-color: green;
   display: flex;
   justify-content: end;
   align-items: flex-end;
 
 }
 
-.flag-english img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.flag-english-img {
+  width: 60px;
+  height: 60px;
 }
-  
+
+.flag-english-img:hover {
+  width: 70px;
+  height: 70px;
+}
