@@ -27,7 +27,6 @@
   }
 
   .title {
-    
     margin-top: 48px;
   }
 
@@ -86,5 +85,20 @@
 
   .cards {
     margin-left: 50px;
+  }
+
+  .flag-english {
+    display: none;
+  }
+
+  .flag-english-mobile {
+    display: flex;
+    justify-content: end;
+  }
+
+  .flag-english-img-mobile {
+    width: 35px;
+    height: 45px;
+    padding-right: 5px;
   }
 }

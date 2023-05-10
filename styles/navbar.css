@@ -206,6 +206,10 @@
 
 }
 
+.flag-english-mobile {
+  display: none;
+}
+
 .flag-english-img {
   width: 60px;
   height: 60px;
@@ -214,4 +218,5 @@
 .flag-english-img:hover {
   width: 70px;
   height: 70px;
+  transition: all 0.8s ease-in-out;
 }
