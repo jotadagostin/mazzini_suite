@@ -45,6 +45,7 @@
   border-bottom: 0.8px solid orangered;
   border-radius: 15px;
   background-color: white;
+  
 }
 
 
@@ -58,7 +59,9 @@
 .material-symbols-outlined {
     font-size: 34px;
     padding: 7px;
-}
+    display: inline-block;
+    align-items: center;
+    }
 
 .material-symbols-outlined, .language {
     color: rgb(230, 113, 95);
