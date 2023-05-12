@@ -2,7 +2,7 @@
   text-align: center;
   font-size: 60px;
   font-weight: bold;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   border-bottom: 0.8px solid orangered;
 }
 
@@ -48,6 +48,14 @@
   
 }
 
+.contact_title__p:hover {
+  font-size: 27px;
+  transition: 0.1s ease-in-out;
+  background-color: rgb(198, 155, 85);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
 
 .contact_photo {
   width: 270px;
@@ -73,4 +81,11 @@
 .contact_title__d {
    color: rgb(205, 85, 42);
    font-size: 25px;
+}
+
+.contact_title__d:hover {
+  font-size: 27px;
+  background-color: white;
+  
+  cursor: pointer;
 }
