@@ -45,17 +45,15 @@
   border-bottom: 0.8px solid orangered;
   border-radius: 15px;
   background-color: white;
-  
 }
 
 .contact_title__p:hover {
   font-size: 27px;
   transition: 0.1s ease-in-out;
-  background-color: rgb(198, 155, 85);
+  background-color: rgb(202, 160, 92);
   color: white;
   text-shadow: 1px 1px 1px black;
 }
-
 
 .contact_photo {
   width: 270px;
@@ -65,27 +63,27 @@
 }
 
 .material-symbols-outlined {
-    font-size: 34px;
-    padding: 7px;
-    display: inline-block;
-    align-items: center;
-    }
+  font-size: 34px;
+  padding: 7px;
+  display: inline-block;
+  align-items: center;
+}
 
-.material-symbols-outlined, .language {
-    color: rgb(230, 113, 95);
-    font-size: 30px;
-    margin: 1px;
-    padding-top: px;
+.material-symbols-outlined,
+.language {
+  color: rgb(230, 113, 95);
+  font-size: 30px;
+  margin: 1px;
+  padding-top: px;
 }
 
 .contact_title__d {
-   color: rgb(205, 85, 42);
-   font-size: 25px;
+  color: rgb(205, 85, 42);
+  font-size: 25px;
 }
 
 .contact_title__d:hover {
   font-size: 27px;
-  background-color: white;
-  
   cursor: pointer;
 }
+
