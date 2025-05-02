@@ -1,0 +1,122 @@
+#home {
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .home-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 74px;
+    width: 90%;
+    height: 196px;
+
+    .title {
+      width: 490px;
+      height: 196px;
+      h1 {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 117%;
+        letter-spacing: -0.01em;
+        text-transform: capitalize;
+        color: var(--color-white);
+        margin-bottom: 25px;
+        strong {
+          color: var(--color-purple);
+        }
+      }
+      p {
+        width: 100%;
+        height: 55px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: var(--color-gray);
+      }
+    }
+  }
+
+  .home-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 24px;
+    align-items: start;
+    width: 238px;
+    height: 119px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--color-white);
+      width: 238px;
+      border-bottom: 1px solid var(--color-gray);
+      padding-bottom: 5px;
+    }
+
+    a:hover {
+      color: var(--color-purple);
+    }
+  }
+
+  .home-banner {
+    width: 100%;
+    height: 565px;
+    img {
+      width: 100%;
+      height: 565px;
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #home {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+
+    .home-titles {
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 200px;
+
+      .title {
+        width: 390px;
+        height: 170px;
+        margin-bottom: 50px;
+
+        h1 {
+          font-size: 35px;
+          text-align: center;
+          letter-spacing: 0.1rem;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+
+    .home-services {
+      height: 180px;
+      margin-bottom: 40px;
+    }
+
+    .home-banner {
+      display: flex;
+      align-items: end;
+      img {
+        width: 390px;
+        height: 240px;
+      }
+    }
+  }
+}

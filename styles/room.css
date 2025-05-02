@@ -1,0 +1,125 @@
+#room {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-white);
+
+  .room-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+
+    h2 {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 133.02%;
+      color: var(--color-gray);
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-family: "Manrope", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 133.02%;
+      color: var(--color-black);
+
+      strong {
+        color: var(--color-purple);
+      }
+    }
+    p {
+      font-family: "Manrope", sans-serif;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 152%;
+      color: var(--color-gray);
+    }
+  }
+
+  .room-gallery {
+    display: flex;
+    /* width: 1140px; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 617px;
+    gap: 20px;
+
+    .two-pictures {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      img {
+        width: 360px;
+        height: 292px;
+      }
+    }
+  }
+
+  .one-picture {
+    img {
+      width: 420px;
+      height: 605px;
+    }
+  }
+
+  .click {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    span {
+      display: flex;
+      gap: 10px;
+      a {
+        font-family: "Manrope", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 152%;
+        color: var(--color-gray);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #room {
+    height: 1600px;
+    justify-content: start;
+    align-items: center;
+
+    .room-titles {
+      justify-content: center;
+      align-items: center;
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .room-gallery {
+      flex-direction: column;
+      height: auto;
+
+      .one-picture {
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}

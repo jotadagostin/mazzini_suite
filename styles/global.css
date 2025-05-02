@@ -1,0 +1,39 @@
+/* restart css: */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors: */
+  --color-black: #121212;
+  --color-white: #ffffff;
+  --color-gray: #464646;
+  --color-orange: #ff6b00;
+  --color-purple: #af52de;
+
+  /* fonts:  */
+
+  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--color-black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
