@@ -106,8 +106,10 @@
     }
 
     .home-services {
-      height: 180px;
+      height: auto;
       margin-bottom: 40px;
+      position: relative;
+      z-index: 10;
     }
 
     .home-banner {
